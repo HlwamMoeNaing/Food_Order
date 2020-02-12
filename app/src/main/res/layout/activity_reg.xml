@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#404040"
+    android:orientation="vertical"
+    tools:context=".RegAct">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Mobile Number"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:id="@+id/reg_mobile"
+        android:layout_margin="20dp"
+        android:ems="10"
+        android:inputType="phone"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Passward"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:id="@+id/reg_passward"
+        android:layout_margin="20dp"
+        android:ems="10"
+        android:inputType="textPassword"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Passward"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:id="@+id/reg_confirm"
+        android:layout_margin="20dp"
+        android:ems="10"
+        android:inputType="textPassword"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:id="@+id/reg_name"
+        android:layout_margin="20dp"
+        android:ems="10"
+        android:inputType="text"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Address"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:id="@+id/reg_address"
+        android:layout_margin="20dp"
+        android:ems="10"
+        android:inputType="text"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/regSignUp_btn"
+        android:textColor="#fff"
+        android:textSize="22sp"
+        android:text="Sing Up"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:background="#0055dd"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:padding="10dp"/>
+
+
+
+
+</LinearLayout>
